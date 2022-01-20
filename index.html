@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <script src="https://kit.fontawesome.com/cde479e2e9.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/mediaQuery/laptop.css" media="(max-width: 1280px)" />
+  <link rel="stylesheet" href="./styles/mediaQuery/ipad.css" media="(max-width: 1024px)">
+  <link rel="stylesheet" href="./styles/mediaQuery/bigMobile.css" media="(max-width: 768px)">
+  <link rel="stylesheet" href="./styles/mediaQuery/Mobile.css" media="(max-width: 500px)">
+  <title>Grover</title>
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png" />
+</head>
+
+
+
+<body>
+  <section id="Homepage">
+    <nav id="navbar">
+      <div class="navbar-container">
+        <div class="nav-logo">
+          <img src="./assets/images/grover-logo.svg" alt="" />
+        </div>
+
+        <div class="nav-items">
+          <div class="nav-home active-menu">Home</div>
+          <div class="nav-menu">Menu</div>
+          <div class="nav-service">Service</div>
+          <div class="nav-shop">Shop</div>
+        </div>
+
+        <div class="nav-search-area">
+          <input type="text" placeholder="Search" />
+          <button>
+            <img src="./assets/images/cart-image.svg" alt="" />
+          </button>
+
+          <span class="cart-count">2</span>
+        </div>
+
+        <div id="hamburger" onclick="this.classList.toggle('open');">
+          <svg width="50" height="100" viewBox="0 0 100 100">
+            <path class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+          </svg>
+        </div>
+
+
+      </div>
+    </nav>
+
+    <div id="header-area">
+      <div class="left-header">
+        <div class="header-changer">
+          <span>More than Faster</span>
+
+          <img src="./assets/images/strawberry.png" alt="" />
+        </div>
+
+        <h1 class="header-heading">
+          Groceries delivered in as little as <span>2 hours</span>
+        </h1>
+
+        <p class="header-info">
+          Grocen atssures fresh grocery every morning to your family without
+          getting out in this pandemic.
+        </p>
+
+        <div class="header-btns">
+          <button class="red-btns order-btn">Order Now</button>
+          <div class="process-btn">
+            <img src="./assets/images/header-play-btn.png" alt="" />
+            Order Process
+          </div>
+        </div>
+      </div>
+      <div class="right-header">
+        <div class="header-chef">
+          <img id="chef-img" src="./assets/images/Group 2.png" alt="" />
+
+          <img class="orange-img" src="./assets/images/orange-card.png" alt="" />
+          <img class="alram-img" src="./assets/images/alarm-card.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="our-services">
+    <div class="services-cards">
+      <div class="services-subheading">What we Serve</div>
+      <h1 class="services-heading">
+        Fruit And Vegetable Delivered To Your Home
+      </h1>
+
+      <div class="cards-section">
+        <div class="each-card freeship-card">
+          <div class="card-logo">
+            <img src="./assets/images/delivery.svg" alt="" />
+          </div>
+          <h2>Free Shiping</h2>
+          <p>Enjoy Order in a hand using the fresness of groceries</p>
+        </div>
+        <div class="each-card return-card">
+          <div class="card-logo">
+            <img src="./assets/images/return.svg" alt="" />
+          </div>
+          <h2>15 days returns</h2>
+          <p>Order in a handy way using the freshness of the groceries.</p>
+        </div>
+
+        <div class="each-card secure-card">
+          <div class="card-logo">
+            <img src="./assets/images/secure.svg" alt="" />
+          </div>
+          <h2>Secure checkout</h2>
+          <p>If you get rotten items return immediately to us.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="whyUs">
+    <div class="whyus-section">
+      <div class="whyus-left-items">
+        <div class="whysection-hero">
+          <img src="./assets/images/orange-girl.png" alt="" />
+
+          <img class="melting-cheese-card" src="./assets/images/strwaberry-card.png" alt="" />
+        </div>
+      </div>
+      <div class="whyus-right-items">
+        <div>WHY CHOOSE US</div>
+        <h1>Find Favorites And Discover New Ones</h1>
+        <p>
+          At vero eos et accusamus et iusto odio dignissimos ducimus
+          blanditiis praesen voluptatum deleniti.
+        </p>
+        <button class="red-btns">Explore Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="delivery">
+    <div class="delivery-section">
+      <div class="delivery-left-items">
+        <div>HOME DELIVERY</div>
+        <h1>Sit At Home We Will Take Care Your Order</h1>
+        <p>
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium voluptatum deleniti atque corrupti quos
+        </p>
+        <button class="red-btns delivery-btn">Explore Now</button>
+      </div>
+
+      <div class="delivery-right-items">
+        <div class="delivery-hero">
+          <img src="./assets/images/delivery-man.png" alt="" />
+
+          <img class="delivery-card" src="./assets/images/delivey-card.png" alt="" />
+          <img class="semi-circle" src="./assets/images/semicircle.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="application">
+    <div class="application-section">
+      <div class="application-left-items">
+        <div class="application-hero">
+          <img src="./assets/images/mobile-mockup.png" alt="" />
+        </div>
+      </div>
+      <div class="application-right-items">
+        <div>Download our app</div>
+        <h1>Get Groceries App Order More Easily.</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut.
+        </p>
+        <div class="appdownload-btns">
+          <div class="app-store-btn">
+            <img src="./assets/images/apple-icon.svg" alt="" />
+            App Store
+          </div>
+          <div class="play-store-btn">
+            <img src="./assets/images/playstore-logo.svg" alt="" />
+            Play Store
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footerC footerC1">
+        <img src="./assets/images/grover-logo.svg" alt="" />
+        <p>
+          Fast delivery, which is active all over the world, serves with many
+          transportation vehicles.
+        </p>
+      </div>
+      <div class="footerC footerC2">
+        <div class="footer-links">Company</div>
+        <div class="footer-links">About Us</div>
+        <div class="footer-links">Blog</div>
+        <div class="footer-links">All Products</div>
+        <div class="footer-links">Location Map</div>
+      </div>
+
+      <div class="footerC footerC3">
+        <div class="footer-links">Services</div>
+        <div class="footer-links">Order tracking</div>
+        <div class="footer-links">Wish List</div>
+        <div class="footer-links">My account</div>
+        <div class="footer-links">Terms & Conditions</div>
+      </div>
+
+      <div class="footerC footerC4">
+        <div class="footer-links">Get in Touch</div>
+        <div class="footer-links">
+          Subscribe to our weekly Newsletter and receive updates via email.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <section id="copyright">
+    <div class="copyright-section">
+      <div class="copyright">All Rights Reserved @yaduvanshiNK 2022</div>
+      <div class="rel-links">
+        <span>Terms & Conditions</span>
+        <span>Privacy & Policy</span>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"
+    integrity="sha512-5efjkDjhldlK+BrHauVYJpbjKrtNemLZksZWxd6Wdxvm06dceqWGLLNjZywOkvW7BF032ktHRMUOarbK9d60bg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./scripts/vanilla-tilt.min.js"></script>
+  <script src="./scripts/app.js"></script>
+</body>
+
+</html>

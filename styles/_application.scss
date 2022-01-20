@@ -1,0 +1,70 @@
+#application {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: #fef5f5;
+}
+
+.application-section {
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.application-hero {
+  position: relative;
+}
+
+.application-right-items {
+  padding-left: 15rem;
+  max-width: 50rem;
+  div {
+    font-weight: 500;
+    color: $Myred;
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin: 1rem 0;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    max-width: 30rem;
+  }
+}
+
+.appdownload-btns {
+  display: flex;
+}
+
+.app-store-btn,
+.play-store-btn {
+  color: $MytextHead !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  border: 2px solid rgba(179, 177, 177, 0.281);
+  padding: 0.8rem 1.5rem;
+
+  img {
+    margin-right: 1rem;
+    height: 50px;
+    margin-left: -0.5rem;
+  }
+  cursor: pointer;
+}
+
+.play-store-btn {
+  margin-left: 2rem;
+}
+.play-store-btn {
+  margin-left: 2rem;
+}

@@ -1,0 +1,152 @@
+.navbar-container {
+  min-height: 6rem;
+}
+
+#header-area {
+  justify-content: flex-start;
+}
+#chef-img {
+  min-width: 20rem;
+  margin-left: 7rem;
+  margin-top: -10rem;
+}
+.orange-img {
+  right: 40%;
+  top: -60%;
+}
+
+.alram-img {
+  top: -30%;
+  left: 70%;
+  width: 30%;
+}
+.header-heading {
+  line-height: 4.5rem;
+}
+
+.header-info {
+  max-width: 100%;
+}
+.header-btns {
+  margin-top: 1.5rem;
+}
+.process-btn {
+  background-color: white;
+  color: #2e2e2e;
+  font-size: 0.9rem;
+  font-weight: 500;
+  outline: none;
+
+  border-radius: 0.5rem;
+  min-width: 10rem;
+}
+.process-btn img {
+  height: 3rem;
+}
+.order-btn {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.services-heading {
+  font-size: 2rem;
+  max-width: 50rem;
+  text-align: center;
+}
+
+.melting-cheese-card {
+  max-width: 60%;
+  position: absolute;
+  top: 30%;
+  right: -8rem;
+}
+.whyus-right-items {
+  padding-left: 0;
+  max-width: 100%;
+}
+
+.whyus-right-items div {
+  font-size: 1rem;
+}
+
+.whyus-right-items h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 1rem 0;
+}
+
+.whyus-right-items p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  max-width: 30rem;
+}
+.delivery-left-items {
+  padding-left: 0;
+  max-width: 100%;
+}
+
+.delivery-left-items div {
+  font-size: 1rem;
+}
+
+.delivery-left-items h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 1rem 0;
+}
+
+.delivery-left-items p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  max-width: 30rem;
+}
+
+.application-right-items {
+  padding-left: 0;
+  max-width: 100%;
+}
+
+.application-right-items div {
+  font-size: 1rem;
+}
+
+.application-right-items h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 1rem 0;
+}
+
+.application-right-items p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  max-width: 30rem;
+}
+
+.app-store-btn,
+.play-store-btn {
+  font-size: 0.6rem;
+  padding: 01rem 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.play-store-btn {
+  margin-left: 1rem;
+}
+
+.app-store-btn img,
+.play-store-btn img {
+  margin-right: 1rem;
+  height: 30px;
+  margin-left: -0.5rem;
+}
+
+#footer {
+  margin: 4rem 0;
+}
+
+.footer-container {
+  flex-wrap: wrap;
+}
+
+.red-btns {
+  font-size: 1rem;
+}

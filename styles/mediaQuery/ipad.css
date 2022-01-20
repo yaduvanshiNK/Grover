@@ -1,0 +1,46 @@
+#chef-img {
+  max-width: 70%;
+  margin-left: 7rem;
+  margin-top: -10rem;
+}
+.orange-img {
+  right: 50%;
+  top: -60%;
+}
+
+.alram-img {
+  top: -40%;
+  left: 70%;
+}
+.header-info {
+  font-size: 1rem;
+}
+.process-btn {
+  font-size: 1.2rem;
+}
+.order-btn {
+  font-size: 1.2rem;
+}
+
+.delivery-left-items {
+  padding-right: 3rem;
+  margin-top: 10rem;
+  max-width: 30rem;
+}
+.delivery-hero img:nth-child(1) {
+  max-width: 80%;
+}
+.delivery-card {
+  right: -2rem;
+}
+
+#delivery {
+  padding-bottom: 5rem;
+}
+#application {
+  padding: 5rem 2rem;
+}
+.application-right-items {
+  padding-left: 5rem;
+  max-width: 50rem;
+}

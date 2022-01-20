@@ -1,0 +1,38 @@
+.header-heading {
+  font-size: 4rem;
+  line-height: 5rem;
+}
+.header-info {
+  font-size: 1.2rem;
+}
+.header-btns {
+  margin-top: 2rem;
+}
+#chef-img {
+  max-width: 90%;
+}
+.orange-img {
+  max-width: 80%;
+  right: 60%;
+  top: 10%;
+}
+
+.alram-img {
+  left: 60%;
+}
+
+.melting-cheese-card {
+  max-width: 50%;
+  position: absolute;
+  top: 40%;
+  right: -10rem;
+}
+.whysection-hero img:nth-child(1) {
+  max-width: 130%;
+}
+
+.delivery-left-items {
+  padding-right: 2rem;
+  margin-top: 10rem;
+  max-width: 40rem;
+}

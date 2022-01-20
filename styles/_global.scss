@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+$Myred: #f86061;
+$MytextNormal: #676767;
+$MytextHead: #2e2e2e;
+
+.red-btns {
+  background-color: $Myred;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  outline: none;
+  border: 2px solid $Myred;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  &:hover {
+    background-color: white;
+    color: $Myred;
+    transition: all 0.2s ease;
+    border: 2px solid $Myred;
+  }
+}

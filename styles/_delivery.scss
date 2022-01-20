@@ -1,0 +1,70 @@
+#delivery {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.delivery-section {
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.delivery-hero {
+  position: relative;
+}
+
+.delivery-card {
+  top: 30%;
+  right: -5rem;
+  position: absolute;
+  box-shadow: #03cc8263 0px 48px 100px 0px;
+}
+.semi-circle {
+  position: absolute;
+  left: 20px;
+  bottom: -10px;
+}
+
+.delivery-left-items {
+  margin-top: 10rem;
+  padding-right: 15rem;
+  max-width: 50rem;
+  div {
+    font-weight: 500;
+    color: orange;
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin: 1rem 0;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    max-width: 30rem;
+  }
+}
+
+.delivery-btn {
+  background-color: white;
+  color: $Myred;
+  font-size: 1.5rem;
+  font-weight: 500;
+  outline: none;
+  border: 2px solid $Myred;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  &:hover {
+    color: white;
+    background-color: $Myred;
+    transition: all 0.2s ease;
+  }
+}

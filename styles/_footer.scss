@@ -1,0 +1,66 @@
+#footer {
+  margin: 8rem 0;
+}
+.footer-container,
+.copyright-section {
+  display: flex;
+  max-width: 1600px;
+  margin: auto;
+  padding: 0 2rem;
+  color: rgba(99, 96, 96, 0.747);
+}
+.footerC {
+  width: 20rem;
+}
+
+.footerC1 {
+  width: 30rem;
+  p {
+    margin-top: 1rem;
+    max-width: 16rem;
+  }
+}
+
+.footer-links {
+  padding-top: 0.7rem;
+  &:nth-child(1) {
+    color: $MytextHead;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    pointer-events: none;
+  }
+  &:hover {
+    color: $MytextHead;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.1s ease;
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f061";
+      padding-right: 10px;
+      color: #f86061;
+    }
+  }
+}
+.copyright-section {
+  border-top: 1px solid rgba(99, 96, 96, 0.747);
+  padding: 2rem;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  span {
+    padding-left: 2rem;
+    cursor: pointer;
+    &:hover {
+      color: $MytextHead;
+    }
+  }
+}
+
+.footerC4 {
+  div {
+    &:last-child {
+      max-width: 15rem;
+    }
+  }
+}
